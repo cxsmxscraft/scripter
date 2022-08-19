@@ -1,6 +1,9 @@
+source "./checker.sh"
+
 SERVER_FILE=server.jar
 
 function start {
+    checker
     if [ -f "$SERVER_FILE" ]; then
         /usr/bin/java -Xmx1024M -Xms1024M -jar server.jar nogui
     else
