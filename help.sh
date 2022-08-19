@@ -5,6 +5,8 @@ function _help {
     echo
     echo " General command:"
     echo "    backup                    Backup the minecraft server to git"
+    echo "    upgrade                   Update the minecraft server"
+    echo "    update                    Update the script manager itself"
     echo "    upload                    Upload all backups to the server"
     echo "    start                     Start your minecraft server"
     echo "    help                      This help message"
