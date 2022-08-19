@@ -14,6 +14,11 @@ source ../upload.sh
 source ../upgrade.sh
 source ../start.sh
 
+# Check if server.properties or server.jar exists
+if [ ! -f server.properties ] && [ ! -f server.jar ]; then
+    echo "This is not valid minecraft server directory"
+    exit 1
+fi
 
 if [[ -z "${1}" ]]; then
     _help
