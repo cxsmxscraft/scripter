@@ -13,6 +13,7 @@ source ../backup.sh
 source ../upload.sh
 source ../upgrade.sh
 source ../start.sh
+source ../update.sh
 
 if [[ -z "${1}" ]]; then
     _help
@@ -25,6 +26,7 @@ fi
 case "${mode}" in
     "backup"  ) backup        ;;
     "upload"  ) upload        ;;
+    "update"  ) update        ;;
     "upgrade" ) upgrade       ;;
     "start"   ) start         ;;
     "help"    ) _help; exit 0 ;;
