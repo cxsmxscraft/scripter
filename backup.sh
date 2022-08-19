@@ -1,4 +1,4 @@
-source "./checker.sh"
+source ~/.scripter/checker.sh
 
 function backup { 
     checker

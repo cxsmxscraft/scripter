@@ -1,4 +1,4 @@
-source "./checker.sh"
+source ~/.scripter/checker.sh
 
 SERVER_FILE=server.jar
 

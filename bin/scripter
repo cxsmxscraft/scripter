@@ -6,14 +6,14 @@ cd "$(dirname "$0")"
 # Quick execute
 set -e
 
-source ../rcon.sh
-source ../telegram.sh
-source ../help.sh
-source ../backup.sh
-source ../upload.sh
-source ../upgrade.sh
-source ../start.sh
-source ../update.sh
+source ~/.scripter/rcon.sh
+source ~/.scripter/telegram.sh
+source ~/.scripter/help.sh
+source ~/.scripter/backup.sh
+source ~/.scripter/upload.sh
+source ~/.scripter/upgrade.sh
+source ~/.scripter/start.sh
+source ~/.scripter/update.sh
 
 if [[ -z "${1}" ]]; then
     _help
