@@ -1,4 +1,6 @@
-function backup {
+function backup { 
+    telegram "People, backup is being started! Please, be patient..."
+
     echo Sending signals to the server
     rcon "save-off"
     rcon "save-all"
