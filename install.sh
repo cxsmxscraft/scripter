@@ -15,7 +15,7 @@ function _install_help {
 function install {
     echo "Installing the main script"
     cp ./main.sh "$1/uwuscripter.sh"
-    set direction="$1"
+    set direction="$(pwd)"
     sed -i 's/CHANGEMEBITCH/$direction/g' "$1/uwuscripter.sh"
     unset direction
 }
