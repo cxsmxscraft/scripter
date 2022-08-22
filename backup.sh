@@ -1,7 +1,4 @@
-source ~/.scripter/checker.sh
-
 function backup { 
-    checker
     telegram "People, backup is being started! Please, be patient..."
 
     echo Sending signals to the server
